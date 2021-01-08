@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "ASwift"
   s.version      = "1.0.0"
   s.summary      = "ASwift is an advanced extension for Swift."
-  s.description  = "ASwift is an advanced extension for ASwift. Description."
+  s.description  = "ASwift is an advanced extension for Swift. Description."
   s.homepage     = "https://github.com/ihormyroniuk/ASwift"
   s.license      = "MIT"
   s.author       = { "Ihor Myroniuk" => "ihormyroniuk@gmail.com" }
