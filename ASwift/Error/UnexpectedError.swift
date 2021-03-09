@@ -31,13 +31,13 @@ public struct UnexpectedError: Error, CustomStringConvertible {
     // MARK: CustomStringConvertible
     
     public var description: String {
-        var description = "file: \(file)"
-        description += "fileId: \(fileId)"
-        description += "filePath: \(filePath)"
-        description += "line: \(line)"
-        description += "column: \(column)"
-        description += "function: \(function)"
-        description += "dsohandle: \(dsohandle)"
+        var description = "file: \(file)\n"
+        description += "fileId: \(fileId)\n"
+        description += "filePath: \(filePath)\n"
+        description += "line: \(line)\n"
+        description += "column: \(column)\n"
+        description += "function: \(function)\n"
+        description += "dsohandle: \(dsohandle)\n"
         return description
     }
     
